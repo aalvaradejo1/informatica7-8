@@ -6,6 +6,13 @@
         </title>
     </head>
     <body>
+        <h1>
+            FSY Conference Registration
+        </h1>
+        <img src="https://file.notion.so/f/f/c4b8832f-7e93-4972-ba52-2bd9f7b273cf/1e4e3ffc-aecc-4524-aeb4-9df0fefe6cf5/image.png?table=block&id=3175b127-bb52-8047-b166-e0a4ec3ba135&spaceId=c4b8832f-7e93-4972-ba52-2bd9f7b273cf&expirationTimestamp=1772575200000&signature=Qp25JCdVln-U3sZrR2smI4rtfMjW2AMf7fcJ70fW0vs" height="500">
+        <p>
+            <p>Visit <a href="https://www.churchofjesuschrist.org/youth/childrenandyouth/fsy/?lang=eng"_blank">FSY offitial website.</a></p>
+        </p>
         <form>
             <label for="firstname">First name: </label>
             <input type="text" name="firstname"  required>
@@ -20,15 +27,14 @@
             <input type="radio" name="aplicationtype" value="Participant"><span>Participant</span>
             <input type="radio" name="aplicationtype" value="Counselor"><span>Counselor</span>
             <br>
-            <label for="email">email: </label>
+            <label for="email">Email: </label>
             <input type="email" name="email"  required>
             <br>
             <label for="phonenumber">Phone number: </label>
-            <input type="tel" name="number"  required>
-            <br>
-            <p>
+            <input type="tel" id="phonenumber"name="phonenumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <h3>
                 Residence
-            </p>
+            </h3>
             <label for="mission">Mision: </label>
             <input type="text" name="mission"  required>
             <br>
@@ -41,9 +47,9 @@
             <label for="bishop">Bishop: </label>
             <input type="text" name="bishop"  required>
             <br>
-            <p>
+            <h3>
                 Parent 1
-            </p>
+            </h3>
             <label for="firstname">First name: </label>
             <input type="text" name="firstname"  required>
             <br>
@@ -53,9 +59,9 @@
             <label for="email">email: </label>
             <input type="email" name="email"  required>
             <br>
-            <p>
+            <h3>
                 Parent 2
-            </p>
+            </h3>
             <label for="firstname">First name: </label>
             <input type="text" name="firstname"  required>
             <br>
@@ -65,7 +71,7 @@
             <label for="email">email: </label>
             <input type="email" name="email"  required>
             <br>
-            <p>Classes you want to have</p>
+            <h3>Classes you want to have</h3>
             <label for="classes">El brazo protector de Jesucristo: </label>
             <input type="checkbox" name="classes">
             <br>
@@ -78,7 +84,27 @@
             <label for="classes">Mira que te mando que te esfuerces y seas valiente: </label>
             <input type="checkbox" name="classes">
             <br>
-            <input type="submit" value="Login!">
+            <h3>
+                Other Details
+            </h3>
+            <label for="color">Chose your t-shirt color: </label>
+            <input type="color" name="color">
+            <br>
+            <label for="size">T-Shirt size: </label>
+            <input type="radio" name="size" value="xs"><span>XS</span>
+            <input type="radio" name="size" value="s"><span>S</span>
+            <input type="radio" name="size" value="m"><span>M</span>
+            <input type="radio" name="size" value="l"><span>L</span>
+            <input type="radio" name="size" value="xl"><span>XL</span>
+            <br>
+            <label for="medical">Any Medical Treatment?</label>
+            <input type="radio" name="medical" value="yes"><span>Yes</span>
+            <input type="radio" name="medical" value="no"><span>No</span>
+            <br>
+            <label for="yes">If yes, especify:</label>
+            <input type="text" name="yes">
+            <br>
+            <input type="submit" value="Sign up!">
             </form>
     </body>
 </html>
