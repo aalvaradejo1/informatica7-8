@@ -1,3 +1,8 @@
+/*Universal Selector*/
+*{
+    color:#282828; /*dark gray*/
+}
+
 /*Element Selectors*/
 h1{
     text-transform:uppercase;
@@ -18,5 +23,11 @@ img{
     background-color:whitesmoke;
     border-radius: 1rem;
     padding: 1rem;
+}
+.subtitle{
+    text-transform:uppercase;
+    color:saddlebrown;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
