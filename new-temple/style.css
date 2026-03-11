@@ -1,6 +1,7 @@
 /*Universal Selector*/
 *{
     color:#282828; /*dark gray*/
+    font-family:sans-serif;
 }
 
 /*Element Selectors*/
@@ -12,6 +13,7 @@ h1{
 /*ID Selector*/
 #status{
     font-family: sans-serif;
+    color:saddlebrown;
 }
 
 img{
@@ -31,3 +33,30 @@ img{
     font-weight: bold;
 }
 
+/*Group selector*/
+h1, .subtitle{
+    font-family:serif;
+}
+
+/*Pseudo Class Selector*/
+a{
+    text-decoration: none;
+    color: rgb(163,157,111)
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+main{
+    width:600px;
+    margin: auto;
+}
+
+#announcement{
+    padding-top:1.5rem;
+    padding-bottom:1.5rem;
+}
+.color{
+    color:gray;
+}
