@@ -2,7 +2,7 @@ body{
     font-family: sans-serif;
     margin: 0;
     background-color: #fafafa;
-    height:400px;
+    height:4000px;
 }
 
 header{
@@ -17,7 +17,9 @@ header{
 
 main{
     width: 500px;
+    height: 100%;
     margin: 100px auto 0;
+    position: relative;
 }
 
 .post{
@@ -48,4 +50,20 @@ main{
     padding: 2px 8px;
     font-weight: bold;
     border-radius: 3px;
+}
+
+.post-description{
+    padding: 1rem;
+}
+
+.user{
+    font-weight:bold;
+}
+
+.ad{
+    background-color: lightblue;
+    padding: 1rem;
+    position: sticky;
+    top: 100px;
+    height: 200px;
 }
