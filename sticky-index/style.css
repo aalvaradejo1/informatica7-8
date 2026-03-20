@@ -1,0 +1,9 @@
+.ad{
+    background-color: lightblue;
+    color: black;
+    position: sticky;
+    top: 0px;
+}
+body{
+    height: 5000px;
+}
