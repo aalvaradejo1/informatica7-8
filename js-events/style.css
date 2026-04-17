@@ -1,0 +1,8 @@
+button{
+    color: black;
+    background-color: lightpink;
+}
+body{
+    display:flex;
+    justify-content: space-between;
+}
