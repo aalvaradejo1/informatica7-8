@@ -1,0 +1,18 @@
+h1{
+    color: pink;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+button{
+ background-color: dodgerblue;
+ color: white;
+}
+
+div{
+    display: flex;
+    justify-content: space-around;
+}
+body{
+    padding: 40px;
+}
