@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+body{
+    background-color:  #00008b;
+    text-align: center;
+}
+h1{
+    font-size: 150px;
+    font-family: "Audiowide", sans-serif;
+    color: white;
+}
+button{
+    height: 500px;
+    width: 800px;
+    font-size: 100px;
+    font-family: "VT323", monospace;
+    box-shadow: 0px 0px 150px #FF69B4;
+    background-color: #FF69B4;
+    border-radius: 5rem;
+    border: solid #FF69B4;
+    text-shadow: 0px 0px 50px white;
+    color: white;
+}
