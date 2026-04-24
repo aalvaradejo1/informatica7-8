@@ -1,0 +1,16 @@
+div{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightblue;
+}
+h1{
+    text-align: center;
+    color:  #C1E1C1;
+    font-size: 60px;
+}
+h5{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
