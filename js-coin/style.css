@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    background-color: #ffea78;
+}
+button{
+    height: 80px;
+    border-radius: 250px;
+    background-color: #ebebeb;
+    border color: #ebebeb;
+}
+h1{
+    font-size: 100px;
+    font-family: sans-serif;
+}
