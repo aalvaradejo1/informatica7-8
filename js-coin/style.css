@@ -2,11 +2,16 @@ body{
     text-align: center;
     background-color: #ffea78;
 }
-button{
+.b1{
     height: 80px;
-    border-radius: 250px;
+    width: 100px;
     background-color: #ebebeb;
     border color: #ebebeb;
+    font-size: 20px;
+}
+div{
+    display: flex;
+    justify-content: space-around;
 }
 h1{
     font-size: 100px;
