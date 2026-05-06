@@ -17,11 +17,11 @@ function coin(user){
     }
 }
 
-// document.addEventListener("DOMContentLoaded", function(){
-//     //Your code here
-//     document.querySelector("#rock-button").onclick=coin("Rock");
+ document.addEventListener("DOMContentLoaded", function(){
+     
+   document.querySelector("#rock-button").onclick=coin("Rock");
 
-// });
+ });
 
 
     let result = document.querySelector("h3");
