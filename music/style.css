@@ -1,0 +1,27 @@
+.instrument {
+    background-color: lightgray;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: sans-serif;
+}
+
+.active {
+    background-color: black;
+    color: white;
+}
+
+#boxes{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+}
+body{
+    background-color: peru;
+    text-align: center;
+
+}
+h1{
+    font-size: 100px;
+}
