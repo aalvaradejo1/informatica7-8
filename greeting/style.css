@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&display=swap');
+form{
+    text-align: center;
+
+}
+
+body{
+    text-align: center;
+    margin: 70px;
+    background-color: #fff9cf;
+}
+
+h1{
+    font-family: "Cherry Cream Soda", system-ui;
+    font-size: 60px;
+}
+h2{
+    font-family: "Chango", sans-serif;
+}
+h3{
+    font-family:"Cherry Cream Soda", system-ui;
+
+}
+#box{
+    background-color: lightblue;
+    height: 200px;
+    
+}
+.squares{
+    font-size: 20px;
+}

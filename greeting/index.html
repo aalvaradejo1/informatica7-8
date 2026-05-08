@@ -5,15 +5,17 @@
             Greeting
         </title>
         <script src="script.js"></script>
+        <link href="style.css" rel="stylesheet">
+
     </head>
     <body>
         <form>
-            <input type="text" placeholder="Type your name" autofocus id="name" required Autocomplete="off">
-            <input type="submit" value="Generate greeting">
+            <input type="text" placeholder="Type your name" autofocus id="name" class="squares" required Autocomplete="off">
+            <input type="submit" value="Generate greeting" class="squares">
         </form>
         <h1></h1>
 
-        <div>
+        <div id="box">
             <h2 id="time"></h2>
             <hr>
             <h2 id= "day"></h2>
