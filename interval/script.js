@@ -1,26 +1,38 @@
-let counter = 10;
+let counter = 15;
 const alarm = new Audio("alarm.mp3");
-function count() {
+function count(user) {
 
-    if (counter > 0){
-    counter--;
-    document.querySelector('h1').innerHTML = counter;
+    let minutes = Math.floor(counter/60);
+    let seconds = counter % 60;
 
-
-    if (counter == 0){
-    alarm.currentTime = 0;
-            alarm.play();
-}
+if (user = "1"){
+        counter = 120;
+    } else if (user = 5){
+        counter = 300;
+    } else if (user = 10) {
+        counter = 600;
     }
+
+
+    if (seconds < 10){
+        seconds = "0" + seconds
+    }
+
+    document.querySelector('h1').innerHTML = minutes + ":" + seconds;
+    if (counter > 0){
+        counter--;
+    } else if (counter == 0){
+        alarm.currentTime = 0;
+        alarm.play();
+    }
+
+
 }
 
 document.addEventListener('DOMContentLoaded', function() {
 
-
-
-
-    document.querySelector('button').onclick = function(){
+    document.querySelector('#start').onclick = function(){
     setInterval(count, 1000);
-    document.querySelector("button").disabled = true;
+    document.querySelector("#start").disabled = true;
     };
 });
